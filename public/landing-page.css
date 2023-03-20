@@ -1,0 +1,45 @@
+.navbar{
+    
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+}
+.navbar .navbar-nav {
+    font-size: 20px;
+}
+.row{
+    margin: 0 !important;
+}
+.home-container{
+    height: 90vh;
+}
+.home-container h1{
+    font-size: 55px;
+}
+.home-container .row{
+    height: 100%;
+}
+.home-container img{
+    width: 400px;
+    height: 600px;
+}
+.tentang{
+    padding: 30px 80px !important;
+    color: black;
+    height: 60vh;
+}
+.tentang h2{
+    font-size: 35px;
+    font-weight: 200;
+}
+.tentang h5{
+    font-weight: 200;
+    margin-top: 50px;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+@media (max-width: 767.98px) {
+    .tentang h5{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,231 @@
+.navbar .avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-container {
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 40px;
+    /* background: -webkit-linear-gradient(-148deg, #ae0b1a, #d20d48);*/
+}
+.red-gradient-bg{
+background: -webkit-linear-gradient(-148deg, #ae0b1a, #d20d48);
+}
+.row{
+    margin: 0 !important;
+}
+.profile-container img {
+    width: 60px;
+    height: 60px;
+    border-radius: 300px;
+    background-color: white;
+}
+
+.profile-container .profile-card {
+    padding: 20px;
+    background: -webkit-linear-gradient(-148deg, #ae0b1a, #d20d48);
+    border-radius: 20px;
+    color: white;
+}
+
+.profile-container .profile-card {
+    width: 50%;
+    background-color: #gray !important;
+}
+
+.profile-container .profile-card h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.profile-container .profile-card .col-right {
+    justify-content: flex-start !important;
+}
+
+.profile-container .profile-card .col-left {
+    justify-content: flex-end !important;
+}
+
+.menu-container {
+    width: 100%;
+}
+
+.menu-container .menu-card {
+    width: 50%;
+    /* background-color: #ae0b1a; */
+    border-radius: 15px;
+    padding: 20px !important;
+    /* background: -webkit-linear-gradient(-148deg, #ae0b1a, #d20d48); */
+}
+
+.menu-container .menu-card .menu-btn i {
+    font-size: 30px;
+    margin-top: 5px;
+}
+.menu-container .menu-card .menu-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container .menu-card .menu-btn {
+    background-color: white;
+    width: 80%;
+    padding: 5px;
+    color: #ae0b1a;
+    transition: transform .4s;
+}
+
+.menu-container .menu-card .menu-btn:hover {
+    background-color: #ae0b1a;
+    width: 80%;
+    padding: 5px;
+    color: white;
+    transform: scale(1.1);
+}
+.form-laporan-card{
+    width: 80%;
+    padding: 30px;
+    margin-top: 30px;
+}
+.success{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    font-size: 50px;
+
+}
+.history-header{
+/*    height: 120px;*/
+}
+.history-icon{
+    font-size: 50px;
+}
+.help i{
+    font-size: 30px;
+}
+.help h5{
+    display: inline;
+    font-weight: 300;
+    font-size: 20px;
+  
+}
+.help a{
+    color: white;
+    text-decoration: none;
+}
+.help{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.history-item-btn{
+    text-decoration: none;
+}
+.detail-pengaduan img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.detail-pengaduan-container{
+    margin-top: 30px;
+
+}
+
+/*progress*/
+.node {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display:inline-block;
+    transition: all 1000ms ease;
+}
+
+.activated {
+    box-shadow: 0px 0px 3px 2px rgba(194, 255, 194, 0.8);
+}
+
+.progress-divider {
+    height: 40px;
+    width: 2px;
+    margin-left: 4px;
+    transition: all 800ms ease;
+     position: relative;
+
+}
+
+li p {
+    display:block;
+    margin-left: 25px;
+}
+li .progress-detail{
+   position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 500px;
+}
+
+li {
+    list-style: none;
+    line-height: 1px;
+}
+
+.green{ background-color: rgba(92, 184, 92, 1); }
+.grey { background-color: rgba(201, 201, 201, 1); }
+
+.progress-container{
+   margin-top: 20px;
+}
+.progress-column{
+    justify-content: center;
+}
+
+.navbar {
+  overflow: hidden;
+
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/*dropdown*/
+.profile-modal img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.profile-modal p{
+    line-height: 5px;
+}
+@media (max-width: 767.98px) {
+    .history-detail-data{
+        margin-top:30px;
+    }
+    .progress-column{
+    justify-content: flex-start;
+}
+    .profile-container .profile-card {
+        width: 80%;
+    }
+    .profile-container {
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+    .profile-container .profile-card h4 {
+        font-size: 20px;
+    }
+    .menu-container {
+        width: 100%;
+    }
+    .menu-container .menu-card .menu-btn{
+        height: 90%;
+    }
+    .menu-container .menu-card {
+        width: 80%;
+    }
+    .menu-container .menu-card p {
+        font-size: 10px;
+    }
+
+}
